@@ -1,0 +1,23 @@
+* {font-size:50px; font-family: Cambria;}
+        h2 {width:70%; border-radius:30px; border:solid;}            
+        body {
+            background: url('https://www.goodfreephotos.com/albums/other-photos/gold-coins-stock-photos.jpg');
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.7); /* white background with 80% opacity */
+            padding: 20px;
+            border-radius: 30px;
+            width: 70%;
+            text-align: center;
+        }
+        input[type="submit"]:hover{
+            box-shadow: 9px 9px 15px rgba(0, 0, 0, 0.3); 
+            background-color: rgb(255, 255, 255);
+            border: solid 2px black;
+        }
